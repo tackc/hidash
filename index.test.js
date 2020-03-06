@@ -7,7 +7,7 @@ const test = (desc, fn) => {
     console.log('----', desc);
     try {
         fn();
-    } catch {
+    } catch (err) {
         console.log(err.message);
     }
 };
