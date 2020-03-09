@@ -31,7 +31,7 @@ test('The map function', () => {
     });
     
     assert.strictEqual(result[0], 2)
-    assert.strictEqual(result[1], 5)
+    assert.strictEqual(result[1], 4)
     assert.strictEqual(result[2], 6)
 
     // if (result[0] !== 2) {
